@@ -1,0 +1,80 @@
+:root {
+  --primary-color: #5fbaa7;
+  --bg-color: #f4f4f4;
+  --border-select: #dedede;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.money-img {
+  width: 150px;
+}
+
+h1 {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.container {
+  width: 385.5px;
+  margin-top: 40px;
+}
+
+.swap-rate-container {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.swap {
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.swap-rate-container .rate {
+  margin-right: 10px;
+  color: var(--primary-color);
+}
+
+.currency {
+  display: flex;
+  justify-content: space-between;
+}
+
+.currency select {
+  appearance: none;
+  padding: 10px 20px 10px 10px;
+  background-color: transparent;
+  border: 1px solid var(--border-select);
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%20000002%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+  background-repeat: no-repeat;
+  background-position: top 50% right 10px;
+  background-size: 12px;
+}
+
+.currency input {
+  text-align: right;
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+}
+
+
+
+
